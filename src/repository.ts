@@ -17,7 +17,7 @@ function find_or_throw<T extends Thing>(things: T[], thing_id: string): T {
 
 const Repository = {
 	Init: async() => {
-		const response = await fetch('/data.json');
+		const response = await fetch('data.json');
 		database = Object.seal((await response.json()) as Database);
 		//add type to all things
 		database.resources.forEach(r => r.type = ThingType.Resource);
