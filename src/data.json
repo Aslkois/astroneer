@@ -1473,6 +1473,20 @@
 			]
 		},
 		{
+			"id": "medium_stacked_platform",
+			"label": {
+				"en-US": "Medium Stacked Platform",
+				"fr-FR": "Plateforme empilée moyenne"
+			},
+			"printed": "small_printer",
+			"dependencies": [
+				{
+					"id": "resin",
+					"quantity": 2
+				}
+			]
+		},
+		{
 			"id": "medium_storage",
 			"label": {
 				"en-US": "Medium Storage",
@@ -2059,6 +2073,20 @@
 				{
 					"id": "resin",
 					"quantity": 2
+				}
+			]
+		},
+		{
+			"id": "large_stacked_platform",
+			"label": {
+				"en-US": "Large Stacked Platform",
+				"fr-FR": "Grande plateforme empilée"
+			},
+			"printed": "medium_printer",
+			"dependencies": [
+				{
+					"id": "resin",
+					"quantity": 3
 				}
 			]
 		},
