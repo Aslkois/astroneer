@@ -11,7 +11,7 @@ let labels: Labels;
 
 export const Localization = {
 	Init: async() => {
-		const response = await fetch('/labels.json');
+		const response = await fetch('labels.json');
 		labels = Object.seal(await response.json() as Labels);
 		//retrieve language saved in settings
 		const settings = localStorage.getObject('settings') as Settings;
