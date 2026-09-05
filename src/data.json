@@ -1367,6 +1367,24 @@
 			]
 		},
 		{
+			"id": "large_battery",
+			"label": {
+				"en-US": "Large Battery",
+				"fr-FR": "Grande batterie"
+			},
+			"printed": "medium_printer",
+			"dependencies": [
+				{
+					"id": "lithium",
+					"quantity": 2
+				},
+				{
+					"id": "zinc",
+					"quantity": 1
+				}
+			]
+		},
+		{
 			"id": "rtg",
 			"label": {
 				"en-US": "RTG",
